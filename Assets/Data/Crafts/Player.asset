@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e8cf07cae93124cac308616628dc6c, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  speed: 5
+  startingPosition: {x: 0, y: -3.6, z: 0}
+  bounds:
+    serializedVersion: 2
+    x: -11
+    y: 0
+    width: 22
+    height: -3.8
+  laserBolt: {fileID: 4406146551806296697, guid: db3054204c5e140479de9dff0c91d394,
+    type: 3}
+  tripleShotBolt: {fileID: 1090027053993404229, guid: 4dca4ed48aa77ce40ab58c150b0e7c95,
+    type: 3}
+  turretOffset: {x: 0, y: 1, z: 0}
+  firingRate: 6
+  lives: 3
+  craftPrefab: {fileID: 8921024823357515307, guid: d612b366d5a24204eb493280c4cc5953,
+    type: 3}
+  laserFireSound: {fileID: 8300000, guid: 75676f361bdfeaf41a46623e95df3dbc, type: 3}
+  deathExplosionSound: {fileID: 8300000, guid: a885c043fab7e46438bba03ba9dab6bc, type: 3}
+  powerUpCollectSound: {fileID: 8300000, guid: 5ee343246919d2b4bba63ae629e95494, type: 3}

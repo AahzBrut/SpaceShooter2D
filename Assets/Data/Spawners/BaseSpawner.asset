@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd35a08987392645ba6e308d1e65a91, type: 3}
+  m_Name: BaseSpawner
+  m_EditorClassIdentifier: 
+  startDelay: 3
+  enemySpawnRate: 1
+  enemyStats: {fileID: 11400000, guid: 93518ed02a11dfe42b2bee9d71055cf4, type: 2}
+  tripleShotSpawnRate: 0.111
+  tripleShotStats: {fileID: 11400000, guid: 4fc4c67297f0bfd4785da2d7afc2c13c, type: 2}
+  speedBoostSpawnRate: 0.067
+  speedBoostStats: {fileID: 11400000, guid: 8da51d771aced8642862eb47903fa821, type: 2}
+  shieldSpawnRate: 0.155
+  shieldStats: {fileID: 11400000, guid: 996a538e38f861d4f9c2db2f89e07d28, type: 2}
